@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b29184c-cbaa-4efd-b528-7a42fb4321ff" name="Default Changelist" comment="" />
+    <list default="true" id="4b29184c-cbaa-4efd-b528-7a42fb4321ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/main/java/base/BrowserDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/base/BrowserDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/generic/generic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/generic/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/generic/test.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +31,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1bWKVfilghr3RPy4pLNpdDc7aAj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,15 +41,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/generic/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/automation_practice/src/test" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/automation_practice/src/test" />
+      <recent name="$PROJECT_DIR$/automation_practice/src/main/resources" />
+      <recent name="$PROJECT_DIR$/automation_practice/src/test/java" />
+      <recent name="$PROJECT_DIR$/automation_practice/src/main/java" />
       <recent name="$PROJECT_DIR$/generic/src/main/java" />
-      <recent name="$PROJECT_DIR$/generic/src/main/java/base" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG./Users/kawsar/Desktop/Projects/WebAutomation/automation_practice/src/test/resources/EcommerceTestRunnerFile.xml">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="generic" />
@@ -45,8 +63,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="page_objects_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="page_objects_test" />
+      <option name="MAIN_CLASS_NAME" value="page_objects_test.HomePageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="page_objects_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="page_objects_test" />
+      <option name="MAIN_CLASS_NAME" value="page_objects_test.LoginPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/kawsar/Desktop/Projects/WebAutomation/automation_practice/src/test/resources/EcommerceTestRunnerFile.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation_practice" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/automation_practice/src/test/resources/EcommerceTestRunnerFile.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/kawsar/Desktop/Projects/WebAutomation/automation_practice/src/test/resources/EcommerceTestRunnerFile.xml" />
+        <item itemvalue="TestNG.HomePageTest" />
+        <item itemvalue="TestNG.LoginPageTest" />
         <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
@@ -65,26 +130,39 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="245" key="GridCell.Tab.0.bottom" timestamp="1588746146375">
-      <screen x="1440" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="245" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1588746146375" />
-    <state width="1878" height="245" key="GridCell.Tab.0.center" timestamp="1588746146373">
-      <screen x="1440" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="245" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1588746146373" />
-    <state width="1878" height="245" key="GridCell.Tab.0.left" timestamp="1588746146371">
-      <screen x="1440" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="245" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1588746146371" />
-    <state width="1878" height="245" key="GridCell.Tab.0.right" timestamp="1588746146374">
-      <screen x="1440" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="245" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1588746146374" />
-    <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1588742441695">
+    <state x="320" y="115" key="#Project_Structure" timestamp="1588907399704">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1588742441695" />
+    <state x="320" y="115" key="#Project_Structure/-1920.58.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1588907399704" />
+    <state width="1398" height="196" key="GridCell.Tab.0.bottom" timestamp="1588912004599">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="196" key="GridCell.Tab.0.bottom/-1920.58.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1588912004599" />
+    <state width="1878" height="245" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1588746146375" />
+    <state width="1398" height="196" key="GridCell.Tab.0.center" timestamp="1588912004597">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="196" key="GridCell.Tab.0.center/-1920.58.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1588912004597" />
+    <state width="1878" height="245" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1588746146373" />
+    <state width="1398" height="196" key="GridCell.Tab.0.left" timestamp="1588912004596">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="196" key="GridCell.Tab.0.left/-1920.58.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1588912004596" />
+    <state width="1878" height="245" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1588746146371" />
+    <state width="1398" height="196" key="GridCell.Tab.0.right" timestamp="1588912004598">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="196" key="GridCell.Tab.0.right/-1920.58.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1588912004598" />
+    <state width="1878" height="245" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1588746146374" />
+    <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1588908225565">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="258" y="112" key="Maven.ArtifactSearchDialog/-1920.58.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1588908225565" />
+    <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1588964500992">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1588964500992" />
+    <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.23.1440.826@0.23.1440.826" timestamp="1588893759066" />
     <state x="149" y="147" key="new project wizard" timestamp="1588742700444">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

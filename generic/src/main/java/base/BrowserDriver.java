@@ -177,11 +177,11 @@ public class BrowserDriver {
             capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 
             if (os.equalsIgnoreCase("windows")) {
-                System.setProperty("webdriver.chrome.driver", "../generic/drivers/windows/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "/Users/kawsar/Downloads/chromedriver.exe");
                 driver = new ChromeDriver(options);
                 //  TestLogger.log("Chrome Browser Launched");
             } else if (os.equalsIgnoreCase("mac")) {
-                System.setProperty("webdriver.chrome.driver", "../generic/drivers/mac/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "/Users/kawsar/Downloads/chromedriver");
                 driver = new ChromeDriver(options);
                 // TestLogger.log("Chrome Browser Launched");
             }
