@@ -1,0 +1,5 @@
+page_objects/LoginPage.class
+page_objects_test/LoginPageTest.class
+page_objects_test/HomePageTest.class
+application_page_base/ApplicationPageBase.class
+page_objects/HomePage.class

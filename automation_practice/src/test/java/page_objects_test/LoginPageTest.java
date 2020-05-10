@@ -26,9 +26,11 @@ public class LoginPageTest extends src.main.java.base.BrowserDriver {
     public Object[][] readData() throws Exception {
 
         MyDataReader myDataReader = new MyDataReader();
-        myDataReader.setExcelFile("/Users/jahidul/IdeaProjects/batch1903webautomationframework/automationpractice/testData/TestData.xlsx");
-       Object[][] data = myDataReader.getExcelSheetData("Sheet3");
-       return data;
+        myDataReader.setExcelFile("/Users/kawsar/Desktop/Projects/testData/TestSampleData.xlsx");
+        Object[][] data = myDataReader.getExcelSheetData("Sheet1");
+        return data;
+
+
     }
 
     @Test(dataProvider ="readData")

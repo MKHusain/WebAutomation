@@ -19,6 +19,7 @@ public class MyDataReader {
 	public void setExcelFile(String Path) throws Exception {
 		 
 			try {
+				System.out.println(Path);
 			FileInputStream ExcelFile = new FileInputStream(Path);
 			ExcelWBook = new XSSFWorkbook(ExcelFile);
 			///ExcelWSheet = ExcelWBook.getSheet(SheetName);

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 32.155 sec <<< FAILURE! - in TestSuite
+loginTest(page_objects_test.LoginPageTest)  Time elapsed: 2.568 sec  <<< FAILURE!
+java.lang.AssertionError: expected [This is test data 1] but found [There is 1 error]
+	at page_objects_test.LoginPageTest.loginTest(LoginPageTest.java:52)
+
+loginTest(page_objects_test.LoginPageTest)  Time elapsed: 2.213 sec  <<< FAILURE!
+java.lang.AssertionError: expected [This is test data 2] but found [There is 1 error]
+	at page_objects_test.LoginPageTest.loginTest(LoginPageTest.java:52)
+
+loginTest(page_objects_test.LoginPageTest)  Time elapsed: 2.325 sec  <<< FAILURE!
+java.lang.AssertionError: expected [This is test data 3] but found [There is 1 error]
+	at page_objects_test.LoginPageTest.loginTest(LoginPageTest.java:52)
+

@@ -1,0 +1,7 @@
+reader/MyDataReader.class
+reporting/ExtentManager.class
+src/main/java/base/BrowserDriver.class
+reporting/ApplicationLog.class
+reporting/ExtentTestManager.class
+src/main/java/base/JavaSampleBrowserstack.class
+reporting/TestLogger.class

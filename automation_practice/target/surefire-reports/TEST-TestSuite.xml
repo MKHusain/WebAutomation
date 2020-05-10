@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="32.155" tests="4" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/13.0.2+8_2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/kawsar/Desktop/Projects/WebAutomation"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/kawsar/Desktop/Projects/WebAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/js/f2k9dfbj69sd9j1h3cq36sk80000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/kawsar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.3"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/kawsar"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="kawsar"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -X"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/13.0.2+8_2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.3_1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="loginTest" classname="page_objects_test.LoginPageTest" time="2.568">
+    <failure message="expected [This is test data 1] but found [There is 1 error]" type="java.lang.AssertionError">java.lang.AssertionError: expected [This is test data 1] but found [There is 1 error]
+	at page_objects_test.LoginPageTest.loginTest(LoginPageTest.java:52)
+</failure>
+    <system-out><![CDATA[outputDirectory: /Users/kawsar/Desktop/Projects/WebAutomation/automation_practice/target/surefire-reports/Automation Test
+resultdir: /Users/kawsar/Desktop/Projects/WebAutomation/automation_practice/target/surefire-reports/html
+Extent Report Directory: /Users/kawsar/Desktop/Projects/WebAutomation/automation_practice/target/surefire-reports/html
+/Users/kawsar/Desktop/Projects/testData/TestSampleData.xlsx
+CLick Sign In Button
+Clicked Sign In Button
+Send text to email address box
+Text Sent to email address box
+Send text to password box
+Text Sent to password box
+CLick submit button
+Clicked submit button
+Getting Text from errorMessage
+Actual text: There is 1 error
+]]></system-out>
+    <system-err><![CDATA[May 10, 2020 12:37:20 AM com.relevantcodes.extentreports.ExtentReports loadConfig
+WARNING: Unable to perform report configuration. The file /Users/kawsar/Desktop/Projects/WebAutomation/automation_practice/test-output/report-config.xml was not found.
+May 10, 2020 12:37:21 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 32266
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 10, 2020 12:37:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1589085446.114][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589085446.222][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589085446.330][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589085446.461][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589085446.645][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589085447.013][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589085447.154][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="page_objects_test.LoginPageTest" time="2.213">
+    <failure message="expected [This is test data 2] but found [There is 1 error]" type="java.lang.AssertionError">java.lang.AssertionError: expected [This is test data 2] but found [There is 1 error]
+	at page_objects_test.LoginPageTest.loginTest(LoginPageTest.java:52)
+</failure>
+    <system-out><![CDATA[Screenshot captured
+CLick Sign In Button
+Clicked Sign In Button
+Send text to email address box
+Text Sent to email address box
+Send text to password box
+Text Sent to password box
+CLick submit button
+Clicked submit button
+Getting Text from errorMessage
+Actual text: There is 1 error
+]]></system-out>
+    <system-err><![CDATA[May 10, 2020 12:37:30 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 1199
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 10, 2020 12:37:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1589085454.771][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589085454.873][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589085455.008][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589085455.275][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589085455.694][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589085455.798][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589085455.907][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="page_objects_test.LoginPageTest" time="2.325">
+    <failure message="expected [This is test data 3] but found [There is 1 error]" type="java.lang.AssertionError">java.lang.AssertionError: expected [This is test data 3] but found [There is 1 error]
+	at page_objects_test.LoginPageTest.loginTest(LoginPageTest.java:52)
+</failure>
+    <system-out><![CDATA[Screenshot captured
+CLick Sign In Button
+Clicked Sign In Button
+Send text to email address box
+Text Sent to email address box
+Send text to password box
+Text Sent to password box
+CLick submit button
+Clicked submit button
+Getting Text from errorMessage
+Actual text: There is 1 error
+]]></system-out>
+    <system-err><![CDATA[May 10, 2020 12:37:38 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 22805
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 10, 2020 12:37:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1589085461.997][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589085462.100][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589085462.226][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589085462.469][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589085462.815][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589085463.004][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589085464.140][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="searchTest" classname="page_objects_test.HomePageTest" time="1.366"/>
+</testsuite>
