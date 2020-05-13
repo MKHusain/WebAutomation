@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="32.155" tests="4" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="48.654" tests="4" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="13.0.2+8"/>
@@ -38,10 +38,9 @@
     <property name="java.specification.version" value="13"/>
     <property name="user.name" value="kawsar"/>
     <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
     <property name="java.vm.specification.version" value="13"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -X"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.home" value="/usr/local/Cellar/openjdk/13.0.2+8_2/libexec/openjdk.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -57,12 +56,11 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="loginTest" classname="page_objects_test.LoginPageTest" time="2.568">
+  <testcase name="loginTest" classname="page_objects_test.LoginPageTest" time="13.172">
     <failure message="expected [This is test data 1] but found [There is 1 error]" type="java.lang.AssertionError">java.lang.AssertionError: expected [This is test data 1] but found [There is 1 error]
-	at page_objects_test.LoginPageTest.loginTest(LoginPageTest.java:52)
+	at page_objects_test.LoginPageTest.loginTest(LoginPageTest.java:50)
 </failure>
     <system-out><![CDATA[outputDirectory: /Users/kawsar/Desktop/Projects/WebAutomation/automation_practice/target/surefire-reports/Automation Test
-resultdir: /Users/kawsar/Desktop/Projects/WebAutomation/automation_practice/target/surefire-reports/html
 Extent Report Directory: /Users/kawsar/Desktop/Projects/WebAutomation/automation_practice/target/surefire-reports/html
 /Users/kawsar/Desktop/Projects/testData/TestSampleData.xlsx
 CLick Sign In Button
@@ -76,27 +74,139 @@ Clicked submit button
 Getting Text from errorMessage
 Actual text: There is 1 error
 ]]></system-out>
-    <system-err><![CDATA[May 10, 2020 12:37:20 AM com.relevantcodes.extentreports.ExtentReports loadConfig
-WARNING: Unable to perform report configuration. The file /Users/kawsar/Desktop/Projects/WebAutomation/automation_practice/test-output/report-config.xml was not found.
-May 10, 2020 12:37:21 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+    <system-err><![CDATA[May 13, 2020 5:17:09 PM com.relevantcodes.extentreports.ExtentReports loadConfig
+WARNING: Unable to perform report configuration. The file /Users/kawsar/Desktop/Projects/WebAutomation/Reports/Extent-Reports/report-config.xml was not found.
+May 13, 2020 5:17:10 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 32266
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 35584
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 10, 2020 12:37:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2020 5:17:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1589085446.114][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589085446.222][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589085446.330][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589085446.461][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589085446.645][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589085447.013][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589085447.154][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404635.208][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404635.311][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404635.417][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404635.520][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404635.624][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404635.728][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404635.834][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404635.942][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404636.044][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404636.253][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404636.357][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404636.535][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404636.880][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404637.387][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404637.494][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404637.629][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404637.781][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404637.911][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404638.014][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404638.119][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404638.224][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404641.203][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404641.311][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404641.415][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404641.519][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404641.622][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404641.727][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404641.829][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404641.932][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404642.035][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404642.138][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404642.243][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404642.346][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404642.450][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404642.554][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404642.657][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404642.759][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404642.862][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404642.968][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404643.071][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404643.174][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404643.279][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404643.382][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404643.488][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404643.592][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404643.695][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404643.799][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404643.903][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404644.008][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404644.112][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404644.217][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404644.321][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404644.424][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404644.527][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404644.630][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404644.733][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404644.837][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404644.942][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404645.044][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404645.147][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404645.250][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404645.355][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404645.458][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404645.561][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404645.666][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404645.770][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404645.874][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404645.977][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404646.094][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404646.204][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404646.307][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404646.410][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404646.513][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404646.617][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404646.719][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404646.822][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404646.926][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404647.029][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404647.134][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404647.240][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404647.342][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404647.445][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404647.547][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404647.650][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404647.754][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404647.858][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404647.963][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404648.066][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404648.170][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404648.273][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404648.377][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404648.480][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404648.583][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404648.685][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404648.789][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404648.894][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404648.998][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404649.100][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404649.203][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404649.306][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404649.410][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404649.513][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404649.618][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404649.723][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404649.825][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404649.927][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404650.031][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404650.136][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404650.238][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404650.341][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404650.445][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404650.548][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404650.651][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404650.755][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404650.859][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404650.962][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404651.065][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404651.214][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404651.317][SEVERE]: Timed out receiving message from renderer: 0.100
 ]]></system-err>
   </testcase>
-  <testcase name="loginTest" classname="page_objects_test.LoginPageTest" time="2.213">
+  <testcase name="loginTest" classname="page_objects_test.LoginPageTest" time="2.754">
     <failure message="expected [This is test data 2] but found [There is 1 error]" type="java.lang.AssertionError">java.lang.AssertionError: expected [This is test data 2] but found [There is 1 error]
-	at page_objects_test.LoginPageTest.loginTest(LoginPageTest.java:52)
+	at page_objects_test.LoginPageTest.loginTest(LoginPageTest.java:50)
 </failure>
     <system-out><![CDATA[Screenshot captured
 CLick Sign In Button
@@ -110,25 +220,31 @@ Clicked submit button
 Getting Text from errorMessage
 Actual text: There is 1 error
 ]]></system-out>
-    <system-err><![CDATA[May 10, 2020 12:37:30 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+    <system-err><![CDATA[May 13, 2020 5:17:32 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 1199
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 44199
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 10, 2020 12:37:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2020 5:17:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1589085454.771][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589085454.873][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589085455.008][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589085455.275][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589085455.694][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589085455.798][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589085455.907][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404655.694][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404655.797][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404655.899][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404656.001][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404656.104][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404656.207][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404656.408][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404656.513][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404656.934][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404657.082][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404657.188][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404657.291][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404657.393][SEVERE]: Timed out receiving message from renderer: 0.100
 ]]></system-err>
   </testcase>
-  <testcase name="loginTest" classname="page_objects_test.LoginPageTest" time="2.325">
+  <testcase name="loginTest" classname="page_objects_test.LoginPageTest" time="2.574">
     <failure message="expected [This is test data 3] but found [There is 1 error]" type="java.lang.AssertionError">java.lang.AssertionError: expected [This is test data 3] but found [There is 1 error]
-	at page_objects_test.LoginPageTest.loginTest(LoginPageTest.java:52)
+	at page_objects_test.LoginPageTest.loginTest(LoginPageTest.java:50)
 </failure>
     <system-out><![CDATA[Screenshot captured
 CLick Sign In Button
@@ -142,21 +258,29 @@ Clicked submit button
 Getting Text from errorMessage
 Actual text: There is 1 error
 ]]></system-out>
-    <system-err><![CDATA[May 10, 2020 12:37:38 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+    <system-err><![CDATA[May 13, 2020 5:17:40 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 22805
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 18129
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 10, 2020 12:37:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2020 5:17:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1589085461.997][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589085462.100][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589085462.226][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589085462.469][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589085462.815][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589085463.004][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589085464.140][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404664.371][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404664.474][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404664.576][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404664.679][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404664.822][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404664.927][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404665.032][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404665.137][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404665.678][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404665.783][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404665.887][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404666.009][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404666.117][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404666.221][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589404666.324][SEVERE]: Timed out receiving message from renderer: 0.100
 ]]></system-err>
   </testcase>
-  <testcase name="searchTest" classname="page_objects_test.HomePageTest" time="1.366"/>
+  <testcase name="searchTest" classname="page_objects_test.HomePageTest" time="1.656"/>
 </testsuite>

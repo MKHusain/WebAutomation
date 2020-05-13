@@ -95,12 +95,12 @@
       <![CDATA[Actual text: There is 1 error]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-05-10T04:37:20Z" name="Automation Test" finished-at="2020-05-10T04:37:51Z" duration-ms="30820">
+  <suite started-at="2020-05-13T21:17:09Z" name="Automation Test" finished-at="2020-05-13T21:17:56Z" duration-ms="47405">
     <groups>
     </groups>
-    <test started-at="2020-05-10T04:37:20Z" name="Ecommerce Home" finished-at="2020-05-10T04:37:51Z" duration-ms="30820">
+    <test started-at="2020-05-13T21:17:09Z" name="Ecommerce Home" finished-at="2020-05-13T21:17:56Z" duration-ms="47405">
       <class name="page_objects_test.HomePageTest">
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:page_objects_test.HomePageTest@1da51a35]" started-at="2020-05-10T00:37:46Z" name="setUp" finished-at="2020-05-10T00:37:50Z" duration-ms="4092" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:page_objects_test.HomePageTest@1da51a35]" started-at="2020-05-13T17:17:49Z" name="setUp" finished-at="2020-05-13T17:17:54Z" duration-ms="5257" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -141,7 +141,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:page_objects_test.HomePageTest@1da51a35]" started-at="2020-05-10T00:37:50Z" name="startExtent" finished-at="2020-05-10T00:37:50Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:page_objects_test.HomePageTest@1da51a35]" started-at="2020-05-13T17:17:54Z" name="startExtent" finished-at="2020-05-13T17:17:54Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -152,15 +152,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="initialiseElements()[pri:0, instance:page_objects_test.HomePageTest@1da51a35]" started-at="2020-05-10T00:37:50Z" name="initialiseElements" finished-at="2020-05-10T00:37:50Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initialiseElements()[pri:0, instance:page_objects_test.HomePageTest@1da51a35]" started-at="2020-05-13T17:17:54Z" name="initialiseElements" finished-at="2020-05-13T17:17:54Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseElements -->
-        <test-method signature="searchTest()[pri:0, instance:page_objects_test.HomePageTest@1da51a35]" started-at="2020-05-10T00:37:50Z" name="searchTest" finished-at="2020-05-10T00:37:51Z" duration-ms="1365" status="PASS">
+        <test-method signature="searchTest()[pri:0, instance:page_objects_test.HomePageTest@1da51a35]" started-at="2020-05-13T17:17:54Z" name="searchTest" finished-at="2020-05-13T17:17:56Z" duration-ms="1665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:page_objects_test.HomePageTest@1da51a35]" started-at="2020-05-10T00:37:51Z" name="afterEachTestMethod" finished-at="2020-05-10T00:37:51Z" duration-ms="250" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:page_objects_test.HomePageTest@1da51a35]" started-at="2020-05-13T17:17:56Z" name="afterEachTestMethod" finished-at="2020-05-13T17:17:56Z" duration-ms="183" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -171,13 +171,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="closeOut()[pri:0, instance:page_objects_test.HomePageTest@1da51a35]" started-at="2020-05-10T00:37:51Z" name="closeOut" finished-at="2020-05-10T00:37:51Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeOut()[pri:0, instance:page_objects_test.HomePageTest@1da51a35]" started-at="2020-05-13T17:17:56Z" name="closeOut" finished-at="2020-05-13T17:17:56Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeOut -->
       </class> <!-- page_objects_test.HomePageTest -->
       <class name="page_objects_test.LoginPageTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-10T00:37:20Z" name="extentSetup" finished-at="2020-05-10T00:37:20Z" duration-ms="607" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-13T17:17:08Z" name="extentSetup" finished-at="2020-05-13T17:17:09Z" duration-ms="487" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -191,7 +191,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-10T00:37:21Z" name="setUp" finished-at="2020-05-10T00:37:27Z" duration-ms="5342" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-13T17:17:10Z" name="setUp" finished-at="2020-05-13T17:17:18Z" duration-ms="8243" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -232,7 +232,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-10T00:37:27Z" name="startExtent" finished-at="2020-05-10T00:37:27Z" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-13T17:17:18Z" name="startExtent" finished-at="2020-05-13T17:17:18Z" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -243,11 +243,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="initializationOfElements()[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-10T00:37:27Z" name="initializationOfElements" finished-at="2020-05-10T00:37:27Z" duration-ms="46" status="PASS">
+        <test-method is-config="true" signature="initializationOfElements()[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-13T17:17:18Z" name="initializationOfElements" finished-at="2020-05-13T17:17:18Z" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializationOfElements -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-10T00:37:27Z" name="loginTest" data-provider="readData" finished-at="2020-05-10T00:37:29Z" duration-ms="2555" status="FAIL">
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-13T17:17:18Z" name="loginTest" data-provider="readData" finished-at="2020-05-13T17:17:31Z" duration-ms="13142" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -277,7 +277,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:115)
 	at org.testng.Assert.assertEquals(Assert.java:189)
 	at org.testng.Assert.assertEquals(Assert.java:199)
-	at page_objects_test.LoginPageTest.loginTest(LoginPageTest.java:52)
+	at page_objects_test.LoginPageTest.loginTest(LoginPageTest.java:50)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -342,7 +342,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-10T00:37:29Z" name="afterEachTestMethod" finished-at="2020-05-10T00:37:30Z" duration-ms="1087" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-13T17:17:31Z" name="afterEachTestMethod" finished-at="2020-05-13T17:17:32Z" duration-ms="987" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -353,11 +353,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="closeOut()[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-10T00:37:30Z" name="closeOut" finished-at="2020-05-10T00:37:30Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeOut()[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-13T17:17:32Z" name="closeOut" finished-at="2020-05-13T17:17:32Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeOut -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-10T00:37:30Z" name="setUp" finished-at="2020-05-10T00:37:35Z" duration-ms="5039" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-13T17:17:32Z" name="setUp" finished-at="2020-05-13T17:17:37Z" duration-ms="5009" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -398,7 +398,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-10T00:37:35Z" name="startExtent" finished-at="2020-05-10T00:37:36Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-13T17:17:37Z" name="startExtent" finished-at="2020-05-13T17:17:37Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -409,11 +409,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="initializationOfElements()[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-10T00:37:36Z" name="initializationOfElements" finished-at="2020-05-10T00:37:36Z" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="initializationOfElements()[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-13T17:17:37Z" name="initializationOfElements" finished-at="2020-05-13T17:17:37Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializationOfElements -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-10T00:37:36Z" name="loginTest" data-provider="readData" finished-at="2020-05-10T00:37:38Z" duration-ms="2214" status="FAIL">
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-13T17:17:37Z" name="loginTest" data-provider="readData" finished-at="2020-05-13T17:17:40Z" duration-ms="2755" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -443,7 +443,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:115)
 	at org.testng.Assert.assertEquals(Assert.java:189)
 	at org.testng.Assert.assertEquals(Assert.java:199)
-	at page_objects_test.LoginPageTest.loginTest(LoginPageTest.java:52)
+	at page_objects_test.LoginPageTest.loginTest(LoginPageTest.java:50)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -508,7 +508,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-10T00:37:38Z" name="afterEachTestMethod" finished-at="2020-05-10T00:37:38Z" duration-ms="624" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-13T17:17:40Z" name="afterEachTestMethod" finished-at="2020-05-13T17:17:40Z" duration-ms="691" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -519,11 +519,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="closeOut()[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-10T00:37:38Z" name="closeOut" finished-at="2020-05-10T00:37:38Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeOut()[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-13T17:17:40Z" name="closeOut" finished-at="2020-05-13T17:17:40Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeOut -->
-        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-10T00:37:38Z" name="setUp" finished-at="2020-05-10T00:37:43Z" duration-ms="4229" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-13T17:17:40Z" name="setUp" finished-at="2020-05-13T17:17:46Z" duration-ms="5404" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -564,7 +564,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-10T00:37:43Z" name="startExtent" finished-at="2020-05-10T00:37:43Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-13T17:17:46Z" name="startExtent" finished-at="2020-05-13T17:17:46Z" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -575,11 +575,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="initializationOfElements()[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-10T00:37:43Z" name="initializationOfElements" finished-at="2020-05-10T00:37:43Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initializationOfElements()[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-13T17:17:46Z" name="initializationOfElements" finished-at="2020-05-13T17:17:46Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializationOfElements -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-10T00:37:43Z" name="loginTest" data-provider="readData" finished-at="2020-05-10T00:37:45Z" duration-ms="2325" status="FAIL">
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-13T17:17:46Z" name="loginTest" data-provider="readData" finished-at="2020-05-13T17:17:48Z" duration-ms="2574" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -609,7 +609,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:115)
 	at org.testng.Assert.assertEquals(Assert.java:189)
 	at org.testng.Assert.assertEquals(Assert.java:199)
-	at page_objects_test.LoginPageTest.loginTest(LoginPageTest.java:52)
+	at page_objects_test.LoginPageTest.loginTest(LoginPageTest.java:50)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -674,7 +674,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-10T00:37:45Z" name="afterEachTestMethod" finished-at="2020-05-10T00:37:46Z" duration-ms="614" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-13T17:17:48Z" name="afterEachTestMethod" finished-at="2020-05-13T17:17:49Z" duration-ms="568" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -685,11 +685,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="closeOut()[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-10T00:37:46Z" name="closeOut" finished-at="2020-05-10T00:37:46Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeOut()[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-13T17:17:49Z" name="closeOut" finished-at="2020-05-13T17:17:49Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeOut -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-10T00:37:51Z" name="generateReport" finished-at="2020-05-10T00:37:51Z" duration-ms="48" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:page_objects_test.LoginPageTest@6d3af739]" started-at="2020-05-13T17:17:56Z" name="generateReport" finished-at="2020-05-13T17:17:56Z" duration-ms="64" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->

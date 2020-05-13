@@ -2,28 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b29184c-cbaa-4efd-b528-7a42fb4321ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation_practice/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/automation_practice/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation_practice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/automation_practice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation_practice/src/test/java/page_objects_test/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/automation_practice/src/test/java/page_objects_test/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation_practice/target/classes/application_page_base/ApplicationPageBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation_practice/target/classes/page_objects/HomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation_practice/target/classes/page_objects/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation_practice/target/classes/page_objects_test/HomePageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation_practice/target/classes/page_objects_test/LoginPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation_practice/target/classes/resources/EcommerceTestRunnerFile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/src/main/java/base/BrowserDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/src/main/java/base/BrowserDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/src/main/java/reader/MyDataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/reader/MyDataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_practice/target/surefire-reports/Automation Test/Ecommerce Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/automation_practice/target/surefire-reports/Automation Test/Ecommerce Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_practice/target/surefire-reports/Automation Test/Ecommerce Home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/automation_practice/target/surefire-reports/Automation Test/Ecommerce Home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_practice/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/automation_practice/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_practice/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/automation_practice/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_practice/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/automation_practice/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_practice/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/automation_practice/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_practice/target/surefire-reports/junitreports/TEST-page_objects_test.HomePageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/automation_practice/target/surefire-reports/junitreports/TEST-page_objects_test.HomePageTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_practice/target/surefire-reports/junitreports/TEST-page_objects_test.LoginPageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/automation_practice/target/surefire-reports/junitreports/TEST-page_objects_test.LoginPageTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_practice/target/surefire-reports/old/Automation Test/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/automation_practice/target/surefire-reports/old/Automation Test/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_practice/target/surefire-reports/old/Automation Test/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/automation_practice/target/surefire-reports/old/Automation Test/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_practice/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/automation_practice/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_practice/target/surefire/surefire6818700894579903279tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_practice/target/surefire/surefire_08037783039088353226tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_practice/target/surefire/surefirebooter3967263517024526650.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_practice/target/test-classes/page_objects_test/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/automation_practice/target/test-classes/page_objects_test/LoginPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_practice/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/automation_practice/test-output/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generic/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/reporting/ExtentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/classes/META-INF/generic.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/classes/reader/MyDataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/generic/target/classes/reader/MyDataReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/classes/reporting/ApplicationLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/generic/target/classes/reporting/ApplicationLog.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generic/target/classes/reporting/ExtentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/generic/target/classes/reporting/ExtentManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/classes/reporting/ExtentTestManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/generic/target/classes/reporting/ExtentTestManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/classes/reporting/TestLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/generic/target/classes/reporting/TestLogger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/classes/src/main/java/base/BrowserDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/generic/target/classes/src/main/java/base/BrowserDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/classes/src/main/java/base/JavaSampleBrowserstack.class" beforeDir="false" afterPath="$PROJECT_DIR$/generic/target/classes/src/main/java/base/JavaSampleBrowserstack.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,24 +58,29 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/generic/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/automation_practice/testData" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/com.realtor/src/test/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="application_base_page" />
+      <recent name="application_page_base" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/com.realtor/src/test/resources" />
       <recent name="$PROJECT_DIR$/automation_practice/testData" />
       <recent name="$PROJECT_DIR$/automation_practice" />
       <recent name="$PROJECT_DIR$/automation_practice/src/main" />
       <recent name="$PROJECT_DIR$/automation_practice/src/test" />
-      <recent name="$PROJECT_DIR$/automation_practice/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/kawsar/Desktop/Projects/WebAutomation/automation_practice/src/test/resources/EcommerceTestRunnerFile.xml">
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="generic" />
+  <component name="RunManager" selected="TestNG./Users/kawsar/Desktop/Projects/WebAutomation/com.realtor/src/test/resources/EcommerceTestRunnerFile.xml">
+    <configuration name="All in com.realtor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.realtor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,12 +129,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/kawsar/Desktop/Projects/WebAutomation/com.realtor/src/test/resources/EcommerceTestRunnerFile.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.realtor" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/com.realtor/src/test/resources/EcommerceTestRunnerFile.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/kawsar/Desktop/Projects/WebAutomation/com.realtor/src/test/resources/EcommerceTestRunnerFile.xml" />
+        <item itemvalue="JUnit.All in com.realtor" />
         <item itemvalue="TestNG./Users/kawsar/Desktop/Projects/WebAutomation/automation_practice/src/test/resources/EcommerceTestRunnerFile.xml" />
         <item itemvalue="TestNG.HomePageTest" />
         <item itemvalue="TestNG.LoginPageTest" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -149,58 +163,67 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1493" y="138" key="#Project_Structure" timestamp="1589083539353">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state x="320" y="129" key="#Project_Structure" timestamp="1589397710375">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="-1493" y="138" key="#Project_Structure/-1920.0.1920.1080/0.0.1440.900@-1920.0.1920.1080" timestamp="1589083539353" />
     <state x="320" y="115" key="#Project_Structure/-1920.58.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1588907399704" />
+    <state x="320" y="129" key="#Project_Structure/0.23.1440.826@0.23.1440.826" timestamp="1589397710375" />
     <state x="-1820" y="100" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1589083422078">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1820" y="100" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-1920.0.1920.1080/0.0.1440.900@-1920.0.1920.1080" timestamp="1589083422078" />
+    <state x="266" y="368" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589397658771">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="266" y="368" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.826@0.23.1440.826" timestamp="1589397658771" />
+    <state x="487" y="323" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1589397662748">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="487" y="323" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.826@0.23.1440.826" timestamp="1589397662748" />
     <state x="146" y="52" key="CommitChangelistDialog2" timestamp="1589081582986">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="146" y="52" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1589081582986" />
-    <state width="1878" height="329" key="GridCell.Tab.0.bottom" timestamp="1589085598419">
+    <state width="1878" height="328" key="GridCell.Tab.0.bottom" timestamp="1589404723492">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="329" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1440.900@-1920.0.1920.1080" timestamp="1589085598419" />
+    <state width="1878" height="328" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1440.900@-1920.0.1920.1080" timestamp="1589404723492" />
     <state width="1398" height="329" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1589082166176" />
     <state width="1878" height="329" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.23.1440.877@-1920.0.1920.1080" timestamp="1589084469091" />
     <state width="1398" height="196" key="GridCell.Tab.0.bottom/-1920.58.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1588912004599" />
     <state width="1398" height="329" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589079953297" />
-    <state width="1398" height="288" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1589031400421" />
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1589402007432" />
     <state width="1878" height="245" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1588746146375" />
-    <state width="1878" height="329" key="GridCell.Tab.0.center" timestamp="1589085598417">
+    <state width="1878" height="328" key="GridCell.Tab.0.center" timestamp="1589404723489">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="329" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1440.900@-1920.0.1920.1080" timestamp="1589085598417" />
+    <state width="1878" height="328" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1440.900@-1920.0.1920.1080" timestamp="1589404723489" />
     <state width="1398" height="329" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1589082166166" />
     <state width="1878" height="329" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.23.1440.877@-1920.0.1920.1080" timestamp="1589084469088" />
     <state width="1398" height="196" key="GridCell.Tab.0.center/-1920.58.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1588912004597" />
     <state width="1398" height="329" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589079953295" />
-    <state width="1398" height="288" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1589031400421" />
+    <state width="1398" height="231" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1589402007431" />
     <state width="1878" height="245" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1588746146373" />
-    <state width="1878" height="329" key="GridCell.Tab.0.left" timestamp="1589085598416">
+    <state width="1878" height="328" key="GridCell.Tab.0.left" timestamp="1589404723487">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="329" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1440.900@-1920.0.1920.1080" timestamp="1589085598416" />
+    <state width="1878" height="328" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1440.900@-1920.0.1920.1080" timestamp="1589404723487" />
     <state width="1398" height="329" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1589082166164" />
     <state width="1878" height="329" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.23.1440.877@-1920.0.1920.1080" timestamp="1589084469086" />
     <state width="1398" height="196" key="GridCell.Tab.0.left/-1920.58.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1588912004596" />
     <state width="1398" height="329" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589079953295" />
-    <state width="1398" height="288" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1589031400420" />
+    <state width="1398" height="231" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1589402007431" />
     <state width="1878" height="245" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1588746146371" />
-    <state width="1878" height="329" key="GridCell.Tab.0.right" timestamp="1589085598418">
+    <state width="1878" height="328" key="GridCell.Tab.0.right" timestamp="1589404723491">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="329" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1440.900@-1920.0.1920.1080" timestamp="1589085598418" />
+    <state width="1878" height="328" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1440.900@-1920.0.1920.1080" timestamp="1589404723491" />
     <state width="1398" height="329" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1589082166174" />
     <state width="1878" height="329" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.23.1440.877@-1920.0.1920.1080" timestamp="1589084469089" />
     <state width="1398" height="196" key="GridCell.Tab.0.right/-1920.58.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1588912004598" />
     <state width="1398" height="329" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589079953296" />
-    <state width="1398" height="288" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1589031400421" />
+    <state width="1398" height="231" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1589402007432" />
     <state width="1878" height="245" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1588746146374" />
     <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1588908225565">
       <screen x="0" y="0" width="1440" height="900" />
@@ -217,10 +240,11 @@
     <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1588964500992" />
     <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.23.1440.826@0.23.1440.826" timestamp="1589079496361" />
     <state x="413" y="282" key="com.intellij.ide.util.TipDialog/1440.-22.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1589039694899" />
-    <state x="149" y="147" key="new project wizard" timestamp="1588742700444">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="149" y="158" key="new project wizard" timestamp="1589397556243">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="149" y="147" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1588742700444" />
+    <state x="149" y="158" key="new project wizard/0.23.1440.826@0.23.1440.826" timestamp="1589397556243" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1588791479710">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

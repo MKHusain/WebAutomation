@@ -1,0 +1,3 @@
+page_objects_test/HomePageTest.class
+page_objects/HomePage.class
+application_base_page/ApplicationPageBase.class

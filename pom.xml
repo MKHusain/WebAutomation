@@ -11,6 +11,7 @@
     <modules>
         <module>generic</module>
         <module>automation_practice</module>
+        <module>com.realtor</module>
     </modules>
 
     <dependencyManagement>

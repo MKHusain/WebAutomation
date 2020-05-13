@@ -15,12 +15,12 @@ public class ExtentManager {
         if(extent == null){
             File outputDirectory = new File(context.getOutputDirectory());
             File resultDirectory = new File(outputDirectory.getParentFile(),"html");
-            System.out.println("outputDirectory: " + outputDirectory +"\nresultdir: " + resultDirectory);
-            extent = new ExtentReports("/Users/kawsar/Desktop/Projects/WebAutomation/automation_practice/test-output/report.html", true);
+            System.out.println("outputDirectory: " + outputDirectory);
+            extent = new ExtentReports("/Users/kawsar/Desktop/Projects/WebAutomation/Reports/testOutput/report.html", true);
             Reporter.log("Extent Report Directory: "+ resultDirectory, true);
             extent.addSystemInfo("Host Name", "Tester").addSystemInfo("Environment","QA")
                     .addSystemInfo("User Name", "Team_Three");
-            extent.loadConfig(new File("/Users/kawsar/Desktop/Projects/WebAutomation/automation_practice/test-output/report-config.xml"));
+            extent.loadConfig(new File("/Users/kawsar/Desktop/Projects/WebAutomation/Reports/Extent-Reports/report-config.xml"));
         }
         return extent;
     }
