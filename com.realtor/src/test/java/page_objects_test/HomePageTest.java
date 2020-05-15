@@ -20,7 +20,7 @@ public class HomePageTest extends BrowserDriver {
     public void searchBarTest() {
 
         String actualValue = homePage.search();
-        String expectedValue = "120 Homes";
+        String expectedValue = "124 Homes";
         Assert.assertEquals(actualValue, expectedValue);
 
     }
